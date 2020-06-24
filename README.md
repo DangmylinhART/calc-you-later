@@ -12,14 +12,14 @@ The entire back end has been completed for you. You'll be working entirely in `m
 
 ### Steps
 
-Note: we are **not** asking you to handle multi-word operation names like "divided by" until stretch goals. So don't worry about them yet! Here are the basic steps you'll need to follow.
+Note: we are **not** asking you to handle multi-word operation names like "divided by" until stretch goals. So don't worry about them yet! Here are the basic steps you'll need to follow.  
 
 1.  The first thing we need to do is `require` our `calculate` function in from `calculate-back-end.js`. If you've forgotten the syntax, check your previous assignments. (Or your friendly local search engine.)
-2. Then we'll need to grab our users' input. **IMPORTANT:** we want this app to be user friendly, so we'll ask our user to give us the input in a more human way. That means we'll ask them to write `node main.js 3 + 3`, NOT `node main.js 3 3 +`, which is the computer-y order our `calculate` function asks for. Be sure to save your `getInput` results in the right variables, knowing what order they'll come in as!
+2. Then we'll need to grab our users' input. **IMPORTANT:** we want this app to be user friendly, so we'll ask our user to give us the input in a more human way. That means we'll ask them to write `node main.js 3 + 3`, NOT `node main.js 3 3 +`, which is the computer-y order our `calculate` function asks for. Be sure to save your `getInput` results in the right variables, knowing what order they'll come in as! 
 3. Now that we have the input, pass it to `calculate`.
 4. Now assign the return value from `calculate` to a variable and print it!
 
-And that's it! That's our whole front end!
+And that's it! That's our whole front end!  
 
 
 ### Stretch Goals

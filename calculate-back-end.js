@@ -27,13 +27,19 @@ function calculate(num1, num2, operation) {
     return num1 - num2;
   } else if (isMultiplication) {
     return num1 * num2;
-  } else if (isDivision) {
+  } 
+  else if (isDivision) {
     return num1 / num2;
   } else if (isModulus) {
     return num1 % num2;
   } else {
     return `Sorry, that's not a mathematical operation!`
   }
+
+let result = calculate(5, 3, x)
+console.log(result)
+
+
 
   /* Or, instead of using the if/else chain above, we can use
    * a switch, preferably with fall through to save code.
